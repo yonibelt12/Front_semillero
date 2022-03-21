@@ -1,0 +1,19 @@
+
+    <mat-card class="card" >
+        <mat-card-header>
+            <mat-card-title>
+                {{servicio.nombre}}
+            </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>Valor Base sugerido:
+            {{ servicio.vbase|currency}}
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-flat-button color="primary" (click)="onClick()">
+                Solicitar
+                <mat-icon>forward</mat-icon>
+            </button>
+            
+        </mat-card-actions>
+
+    </mat-card>

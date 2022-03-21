@@ -1,0 +1,22 @@
+{
+    "servicios": [
+      {
+        "id":1,
+        "nombre":"Pasear perros",
+        "vbase":35500.0,
+        "tolerancia":0.07
+      },
+      {
+        "id":2,
+        "nombre":"Lavar Loza",
+        "vbase":35500.0,
+        "tolerancia":0.07
+      },
+      {
+        "id":3,
+        "nombre":"Podar cesped",
+        "vbase":35500.0,
+        "tolerancia":0.07
+      }
+    ]
+  }
